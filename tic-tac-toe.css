@@ -1,0 +1,15 @@
+.three-by-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
+    text-align: center;
+    font-size: 110pt;
+    font-family: calibri;
+}
+
+.grid-square {
+    background-color: grey;
+    min-width: 200px;
+    min-height: 200px;
+    border:1px solid black;
+}
